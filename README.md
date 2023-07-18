@@ -1,7 +1,7 @@
 # Churn-Modelling-Prediction
 This is a churn modelling project which uses Deep learning
 
-In this Deep Learning poject I have used a Deep Learning model to predict whether a customer will leave the bank or not. The model is trained on the dataset provided in this repository, and the model dataframe on which the model is trained uses a customer's creditScore, Geography, Gender, Age, Tenure, Balance, Number of products they own, Is and Active Member or not and Estimated Salary. The Traning Dataset does not include whether the customer has exited the company or not. That is allocated in a different variable ('y' in this case).
+In this Deep Learning project I have used a Deep Learning model to predict whether a customer will leave the bank or not. The model is trained on the dataset provided in this repository, and the model dataframe on which the model is trained uses a customer's creditScore, Geography, Gender, Age, Tenure, Balance, Number of products they own, Is and Active Member or not and Estimated Salary. The Traning Dataset does not include whether the customer has exited the company or not. That is allocated in a different variable ('y' in this case).
 
 The Features of the Dataset are Encoded using LabelEncoder, OneHotEncoder, and ColumnTransformer. The ColumnTransformer is used in the Gender Column prominently, as it helpts to create 3 columns for genders and enter 1 wherever it is applicable.
 
